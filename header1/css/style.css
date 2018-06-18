@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: "Ubuntu", "Lucida Grande", "Lucida Sans", Tahoma, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  min-height: 91px;
+  background: #1b1b1b;
+  color: white;
+}
+.header ul {
+  list-style: none;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 30px;
+  margin-left: 160px;
+}
+.header ul li {
+  float: left;
+  margin-right: 30px;
+}
+.header ul li a {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+/*////////////////////////////smartphone/////////////////////////////*/
+@media only screen and (max-width: 420px) and (min-width: 200px) {
+  .header {
+    text-align: center;
+  }
+  .header ul {
+    margin-left: 0;
+    width: 175px;
+  }
+  .header ul li {
+    margin-top: 20px;
+  }
+}
+/*////////////////////////////end smartphone/////////////////////////////*/

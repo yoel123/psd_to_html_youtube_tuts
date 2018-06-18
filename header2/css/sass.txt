@@ -1,0 +1,66 @@
+
+//variables
+$header_bg:#1b1b1b;
+$header_text_color:white;
+
+body
+{
+  margin:0;
+  font-family: "Ubuntu", "Lucida Grande", "Lucida Sans", Tahoma, sans-serif;
+
+}
+
+.container
+{
+	width:80%;
+	margin:0 auto;
+}
+
+.header
+{
+  min-height:91px;
+  background:$header_bg;
+  color:$header_text_color;
+	img
+	{
+	  
+	}
+	ul
+	{
+	  list-style:none;
+	  display: inline-block;
+	  margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: 160px;
+	  li
+	  {
+	    float:left;
+	    margin-right: 30px;
+	    a
+	    {
+	      color:$header_text_color;
+	      font-size:30px;
+	      text-decoration: none;
+	    }
+	  }
+	}
+}
+
+/*////////////////////////////smartphone/////////////////////////////*/
+@media only screen and (max-width: 420px) and (min-width: 200px) {
+
+  .header
+  {
+    text-align: center;
+    ul
+    {
+      margin-left: 0;
+      width: 175px;
+      li
+      {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+/*////////////////////////////end smartphone/////////////////////////////*/
